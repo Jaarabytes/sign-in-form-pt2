@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+*{
+    font-family: Poppins;
+}
+body{
+    background-color:rgb(76, 131, 248);
+}
+.container{
+    width: 70%;
+    border-radius: 9px;
+    background-color: white;
+    margin: 0 auto;
+}
+.docker{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.enter, .password{
+    font-weight:bold;
+}
+.email{
+    height: 35px;
+    width:350px;
+    /* when clicked border should become blue(The above rgb thing) */
+    border: 1px solid rgb(202, 198, 198);
+    border-radius:3px;
+}
+.subscribe{
+    height:35px;
+    width:350px;
+    text-align:center;
+    background-color:rgb(194, 189, 189);
+    border: solid 1px rgb(194, 189, 189);
+    border-radius:3px;
+    color:white;
+    margin-bottom: 20px;
+}
+.last{
+    margin-bottom:40px;
+}
+.subscribe a {
+    text-decoration:none;
+}
+
+.last-remarks a {
+    text-decoration: none;
+    color:blue;
+    font-size: 10px;
+}
+.forgot a{
+    text-decoration: none;
+}
+.remember, .forgot {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom:20px;
+  }
+  
+
+.last-remarks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 190px;
+    padding-right:190px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    background-color: rgba(59, 194, 228, 0.877);    
+}
+
+  
