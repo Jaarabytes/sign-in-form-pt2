@@ -15,17 +15,14 @@
             <div class = "header">
                Sign into your account
             </div>
-            <div class = "detail">
-            <div class = "enter">Username or email</div>
-                <input class = "email" placeholder="Enter your email">
-            <div class = "password">Password</div>
-                <input class = "email" placeholder = "Enter your password">
-            </div>
-            <div class = "details">
-                <input type="checkbox" name="checkbox_name" class = "check">
-                <label type="checkbox" class="remember">Remember me</label>
-                <div class="forgot"><a href="www.w3schools/learnpython">Forgot password?</a></div>                
-            </div>
+            <form>
+                <label>Username or email</label>
+                <input type = "email" required>
+                <label>Password</label>
+                <input type="password" required>
+                <input type = "checkbox"><p>Remember me?</p>
+                <p><a href = "#">Forgot password</a></p>
+            </form>
             <div class = "sign-in">
             <button class = "subscribe" type="submit">Sign in</button>
             <p class = "last">Don't have an account?<a href = "www.w3schools/learnjava.com">Sign up</a></p>
